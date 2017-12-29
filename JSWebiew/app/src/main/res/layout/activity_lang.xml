@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lukemi.jswebiew.LangActivity">
+
+    <Button
+        android:id="@+id/tv_zh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dp5"
+        android:paddingTop="@dimen/dp5"
+        android:text="@string/lang_zh"
+        android:textSize="@dimen/sp16" />
+
+    <Button
+        android:id="@+id/tv_en"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dp5"
+        android:paddingTop="@dimen/dp5"
+        android:text="@string/lang_en"
+        android:textSize="@dimen/sp16" />
+
+</LinearLayout>
